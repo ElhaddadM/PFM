@@ -1,0 +1,100 @@
+body{
+    background-color: #F5F5F5;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.bg-img{
+    width: 100vw;
+    height: 35vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient( 95.2deg, rgba(173,252,234,1) 26.8%, rgba(192,229,246,1) 64% );
+    background-image: url('./assets/img/flag/bg.jpg');
+
+    
+}
+.bg-img-modal{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('./assets/img/flag/4k.jpg');
+
+}
+.code-forget{
+    cursor: pointer;
+}
+.code-forget:hover{
+    text-decoration: underline;
+}
+.MuiCalendarPicker-root{
+    border: 3px solid black;
+    border-radius: .5rem;
+    background-color: #F5F5F5;
+}
+.MuiCalendarPicker-viewTransitionContainer{
+    background-color: rgb(138, 60, 60);
+}
+.MuiCalendarPicker-viewTransitionContainer button:hover{
+    background-color:lime;
+}
+
+.css-1hbyad5-MuiTypography-root{
+    display: none;
+}
+.css-3jvy96-MuiTypography-root-MuiDatePickerToolbar-title{
+   
+   padding-left: 20%;
+}
+.css-3jvy96-MuiTypography-root-MuiDatePickerToolbar-title{
+    color: blue;
+    text-align: center;
+  
+}
+
+.MuiSvgIcon-fontSizeMedium{
+    color: blue;
+}
+.valid-feedback{
+    display: none !important ;
+}
+
+.login{
+    margin: calc(100vh/8) calc(100vw /8) ;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.react-ios-time-picker-input{
+    text-align: center;
+    width: 10vw;
+    border: none !important;
+    font-size: larger;
+}
+.react-ios-time-picker{
+    position: absolute;
+    top: 2%;
+    margin-top: 2%;
+
+}
+.input-interval{
+    width: 10vw;
+    font-size: large;
+    text-align: center;
+}
+.header{
+    position: relative;
+    background-color: rgb(108, 54, 54) !important;
+   display: flex !important;
+   
+    /*  justify-content: space-between !important; */
+   
+
+}
+.ok{
+    border: 1px solid coral;
+}
